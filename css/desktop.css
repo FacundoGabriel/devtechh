@@ -1,0 +1,90 @@
+.escritorio-media{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 100%;
+}
+
+.main-nosotros-info{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    text-align: left;
+
+}
+
+.servicios-container--card{
+    min-width: 380px
+}
+
+.main-nosotros-info p{
+    font-size: 2rem;
+}
+
+.servicios-info-container h3{
+    margin-top: 20px;
+    font-size: 2.8rem;
+}
+
+.servicios-info-container img{
+    width: 130px;
+    height: 130px;
+}
+
+.servicios-info-container p{
+    font-size: 1.6rem;
+}
+
+.servicios-container--slider{
+    overflow-x: auto;
+}
+
+.main-servicios--btn{
+    align-items: center;
+    text-align: center;
+    /* padding: 20px 0 25px 0 ; */
+}
+
+.main-planes-container--slider{
+    justify-content: center;
+    overflow-x: auto
+}
+
+
+.info-form{
+    width: 80%
+}
+
+.info-form input{
+    width: 350px;
+}
+
+select, textarea{
+    width: 350px;
+}
+
+.btn-enviar{
+    width: 350px;
+}
+
+
+
+
+.main-nosotros--img, .servicios-container--card, .elegirnos--img, .img-contacto {
+    transition: transform ease-in-out 0.5s;
+}
+
+.main-nosotros--img:hover, .servicios-container--card:hover, .elegirnos--img:hover, .img-contacto:hover{
+    transform: translateY(-6%);
+}
+
+
+.planes--card{
+    transition: all ease-in-out 0.5s;
+}
+
+.planes--card:hover{
+    transform: translateY(-3%);
+    
+}
